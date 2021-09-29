@@ -20,4 +20,4 @@ Here is an image of the *Cryptogram* Pronunciations.
 
 ## Literature
 
-The *Cryptogram* liturature
+The *Cryptogram* liturature explains what the Founders of *Cryptogram* went through, to make this language
