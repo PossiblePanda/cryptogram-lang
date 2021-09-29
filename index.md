@@ -14,4 +14,4 @@ Here is an image of the Cryptogram Alphabet, and the translations
 
 When pronouncing Cryptogram Sentences there is one big rule. If you are pronouncing a word with two of the same letters next to eachother, then you pronounce it as if there is one. When pronouncing a word / sentence, you combine all of the sounds. For example, the word Hi would be pronounced (tay-pa), because H is tay, and I, is pa.
 
-![Image Of Pronunciations](https://ibb.co/jJLxPjr)
+![Cryptogram Pronunciations](https://user-images.githubusercontent.com/85448494/135311541-e62faa20-4e56-40a9-b5e6-0d6879e8f203.png)
