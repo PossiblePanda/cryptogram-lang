@@ -12,4 +12,4 @@ Here is an image of the Cryptogram Alphabet, and the translations
 
 ## Pronunciations
 
-When pronouncing Cryptogram Sentences there is one big rule. If you are pronouncing a word with two of the same letters next to eachother, then you pronounce it as if there is one.
+When pronouncing Cryptogram Sentences there is one big rule. If you are pronouncing a word with two of the same letters next to eachother, then you pronounce it as if there is one. When pronouncing a word / sentence, you combine all of the sounds. For example, the word Hi would be pronounced 
