@@ -1,5 +1,5 @@
 # Cryptogram Language
-[![Translator by TJ20201](https://img.shields.io/badge/Translator%20by-TJ%20(GMT)%238065-red)](index.php)<br>
+[![Translator by TJ20201](https://img.shields.io/badge/Translator%20by-TJ%20(GMT)%238065-red)](translate.html)<br>
 Hello, welcome to the official *Cryptogram* Documentation page.
 On this page, we will show you how to speak, and write in *Cryptogram*, and hopefully do it fluently. This language is ran, and maintained by @PossiblePanda, and @ImSoBored420
 
