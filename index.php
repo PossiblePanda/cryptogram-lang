@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html style="height:100%;">
-
-<body>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
 <style>
 @import url('https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700');
 
@@ -10,22 +13,31 @@ body {
  height:100%;
  overflow-y: hidden;
 }
+title {
+  text-align: center;
+}
 </style>
  <div id="left" style="display:flex;flex-wrap:wrap;float:left;width:45%;height:100%;">
-  <label for="input" style="width:100%;text-align:center;">Input</label><br>
-  <textarea id="input" oninput="translateTo()" style="width:100%;height:45%;resize:none;"></textarea><br>
+  <label for="input" style="width:100%;text-align:center;">Input <span class="badge rounded-pill bg-primary"></span></label><br>
+  <textarea id="input" oninput="translateTo()" style="width:100%;height:45%;resize:none;" class="p-3 mb-2 bg-dark text-white border-success overflow-scroll "></textarea><br>
   <label for="output" style="width:100%;text-align:center;">Output</label><br>
-  <textarea id="output" oninput="translateFrom()" style="width:100%;height:45%;resize:none;"></textarea>
+  <textarea id="output" oninput="translateFrom()" style="width:100%;height:45%;resize:none;" class="p-3 mb-2 bg-dark text-white border-success overflow-scroll "></textarea>
  </div>
+ <div class="form-check form-switch ">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+  <label class="form-check-label" for="flexSwitchCheckDefault">Pronunciation Mode <span class="badge rounded-pill bg-danger">WIP</span></label>
+</div>
  <div id="right" style="display:flex;flex-wrap:wrap;float:right;width:45%;height:100%;">
-  <p>Welcome to the Cryptogram Translator. This has been made by TJ for PossiblePanda's Cryptogram language. To start, type anything into the Input box and its equivalent in Cryptogram will appear in the Output box. If you put any text in the Cryptogram language into the Output box it will translate and be put in the Input box.<br><br>
-This uses the most similar characters to Cryptogram from Unicode, please note that this is a work in progress and will be changed. <br><br>
-Please note that this translator does not use the some rules, such as the Double Character rule. <br><br>
-If you want to contact PossiblePanda please DM Possible Panda#2609 on discord, or check out the official github <a href="https://github.com/PossiblePanda/cryptogram-lang">here.</a></p>
+ <div class="fs-1 fw-bold title">Cryptogram Translator</div>
+  <p class="text-muted overflow-scroll">Welcome to the Cryptogram Translator. This has been made by TJ for PossiblePanda's Cryptogram language. To start, type anything into the Input box and its equivalent in Cryptogram will appear in the Output box. If you put any text in the Cryptogram language into the Output box it will translate and be put in the Input box.<br><br>
+This uses the most similar characters to Cryptogram from Unicode, please note that this is a work in progress and will be changed. Some symbols look different than shown in the character key, because they interfere with the regular characters.<br><br>
+Please note that this translator does not use the some rules, such as the Double Character rule. This will most likely be fixed in future updates.<br><br>
+If you want to contact PossiblePanda please DM Possible Panda#2609 on discord, or check out the official github <a href="https://github.com/PossiblePanda/cryptogram-lang" class="link-success">here.</a> If you want to contribute to this project, you can go to the github previously stated, and make a push request. Your name will be stated here.
+</p><p class="text-muted overflow-scroll">PossiblePanda, Founder of project. TJ20201, Helping make website. MilkyG, Helping make language. I'm_So_Bored, Helping make language. Thank you for contributing.</p>
  </div>
 <script>
 chars = "abcdefghijklmnopqrstuvwxyz".split("")
-crars = "ՈӦздT]yÜΡ⊙ℹ◔6⊥(O┘┌✝ƉṾNʏ□Χʔ".split("")
+crars = "ՈӦздT]yÜΡ⊙ℹ◔6⊥(O┘┌ṬƉṾNʏ□Χʔ".split("")
 
 inp = document.getElementById('input')
 oup = document.getElementById('output')
