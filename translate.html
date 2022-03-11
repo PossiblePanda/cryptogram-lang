@@ -35,7 +35,9 @@ This uses the most similar characters to Cryptogram from Unicode, please note th
 Please note that this translator does not use the some rules, such as the Double Character rule. This will most likely be fixed in future updates.<br><br>
 If you want to contact PossiblePanda please DM Possible Panda#2609 on discord, or check out the official github <a href="https://github.com/PossiblePanda/cryptogram-lang" class="link-success">here.</a> If you want to contribute to this project, you can go to the github previously stated, and make a push request. Your name will be stated here.
 </p><p class="text-muted overflow-scroll">PossiblePanda, Founder of the project. TJ20201, Helping make website. MilkyG, Helping make language. I'm_So_Bored, Helping make language. Thank you for contributing.</p>
- </div>
+ <button id="button_copyInput" style="width: 12ch;height: 4ch;border-radius: 5px;background-color: #198754;color: white;border-color: #087643;" onclick="navigator.clipboard.writeText(document.getElementById('input').value);this.innerText='Copied!';setTimeout(function(){document.getElementById('button_copyInput').innerText='Copy Input'},1000)">Copy Input</button>
+ <button id="button_copyOutput" style="width: 12ch;height: 4ch;border-radius: 5px;background-color: #198754;color: white;border-color: #087643;" onclick="navigator.clipboard.writeText(document.getElementById('output').value);this.innerText='Copied!';setTimeout(function(){document.getElementById('button_copyOutput').innerText='Copy Output'},1000)">Copy Output</button> 
+</div>
 <script>
 chars = "abcdefghijklmnopqrstuvwxyz".split("")
 crars = "ՈӦздT]yÜΡ⊙ℹ◔6⊥(O┘┌ṬƉṾNʏ□Χʔ".split("")
