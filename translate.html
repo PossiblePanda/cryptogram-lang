@@ -56,10 +56,10 @@ function translateTo() {
  if (prswitch.checked) {
   for (let i = 0; i < letters.length; i++) {
    letter = letters[i]
-   if (char.includes(letter) == false) {
-    final = final + ""
-   } else {
+   try {
     final = final + pronounce[chars.indexOf(letter)]
+   } catch(err) {
+    console.log(err)
    }
   }
  } else {
