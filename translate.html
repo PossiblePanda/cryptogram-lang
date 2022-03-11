@@ -25,7 +25,7 @@ title {
   <textarea id="output" oninput="translateFrom()" style="width:100%;height:45%;resize:none;" class="p-3 mb-2 bg-dark text-white border-success overflow-scroll "></textarea>
  </div>
  <div class="form-check form-switch ">
-  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault prSwitch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
   <label class="form-check-label" for="flexSwitchCheckDefault">Pronunciation Mode <span class="badge rounded-pill bg-danger">WIP</span></label>
 </div>
  <div id="right" style="display:flex;flex-wrap:wrap;float:right;width:45%;height:100%;">
@@ -45,7 +45,7 @@ pronounce = "ka sa tee la no da ma tay pa so ree ta co toe si na day ra bo ba vi
 
 inp = document.getElementById('input')
 oup = document.getElementById('output')
-prswitch = document.getElementById('prSwitch')
+prswitch = document.getElementsByTagName('input')[0]
 
 console.log(inp)
 
